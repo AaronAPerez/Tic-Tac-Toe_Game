@@ -7,7 +7,7 @@ Tic Tac Toe Game in React
 React Expense App Validation  w/Zod and React Hook Forms <br>
 <br>
 <b>Project Description Requirements:</b> <br>
-In this assuagement you will build a small tic-tac-toe game in React with Javascript. You have learned the techniques and fundamental to building any React app, Now it is time to put it into practice. <br>
+In this assignment you will build a small tic-tac-toe game in React with Javascript. You have learned the techniques and fundamental to building any React app, Now it is time to put it into practice. <br>
 1) Must have a component folder ( square component and board component) <br>
 2) Upload to github every day <br>
 3) Must be able to talk through the code to show comprehension of React (useState, useEffect....)(will be part of your grade) <br>
