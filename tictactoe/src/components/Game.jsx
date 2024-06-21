@@ -6,22 +6,25 @@ function Game() {
   const [currentMove, setCurrentMove] = useState(0);
   const xIsNext = currentMove % 2 === 0;
   const currentSquares = history[currentMove];
-  
-  // useEffect currentMove in array will ensure that the effect only runs when currentMove changes
+
+  // useEffect hook to log the current move whenever it changes
   useEffect(() => {
     console.log(`Current move: ${currentMove}`);
   }, [currentMove]);
-
+  
+  // Handle a play (when a square is clicked)
   function handlePlay(nextSquares) {
     const nextHistory = [...history.slice(0, currentMove + 1), nextSquares];
     setHistory(nextHistory);
     setCurrentMove(nextHistory.length - 1);
   }
 
+   // Jump to a specific move in the game history
   function jumpTo(nextMove) {
     setCurrentMove(nextMove);
   }
-
+  
+  // Create the list of moves for the game history
   const moves = history.map((squares, move) => {
     let description;
     if (move > 0) {

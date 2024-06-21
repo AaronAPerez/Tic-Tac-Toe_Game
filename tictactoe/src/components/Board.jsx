@@ -15,6 +15,7 @@ function Board({ xIsNext, squares, onPlay }) {
     onPlay(nextSquares);
   }
 
+ // Determine the game status
   const winner = calculateWinner(squares);
   let status;
   if (winner) {
@@ -56,12 +57,14 @@ function calculateWinner(squares) {
     [0, 4, 8],
     [2, 4, 6],
   ];
+  // Check each winning combination
   for (let i = 0; i < lines.length; i++) {
     const [a, b, c] = lines[i];
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
       return squares[a];
     }
   }
+   // If no winner, return null
   return null;
 }
 
