@@ -15,6 +15,6 @@ https://react.dev/learn/tutorial-tic-tac-toe <br><br>
 
 <b>GitHub:</b> https://github.com/AaronAPerez/Tic-Tac-Toe_Game <br>
 
-<b>Reviewed by:</b> _____________ <br>
+<b>Reviewed by:</b> Alicia Spruell <br>
 
-<b>Comments:</b> ________________________________________________ <br>
+<b>Comments:</b> Code works!! Good Job<br>
