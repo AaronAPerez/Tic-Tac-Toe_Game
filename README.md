@@ -2,9 +2,8 @@
 Tic Tac Toe Game in React
 
 <b>Name:</b> Aaron Perez <br>
-<b>Date:</b> 06/11/2024 <br>
-<b>Project Name:</b> Expense App Validation w/zod react hook forms <br>
-React Expense App Validation  w/Zod and React Hook Forms <br>
+<b>Date:</b> 06/21/2024 <br>
+<b>Project Name:</b>Challenge 1 Tic Tac Toe Game in React Part 1<br>
 <br>
 <b>Project Description Requirements:</b> <br>
 In this assignment you will build a small tic-tac-toe game in React with Javascript. You have learned the techniques and fundamental to building any React app, Now it is time to put it into practice. <br>
